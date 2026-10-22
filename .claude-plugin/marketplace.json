@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "chrisxtain-skills",
+  "description": "Chrisxtain's Claude Code skills for visually rich, interactive web design.",
+  "owner": { "name": "Chrisxtain" },
+  "plugins": [
+    {
+      "name": "design-skills",
+      "source": "./",
+      "description": "3D scenes (React Three Fiber), liquid glass UI, liquid metal logos, animated shader gradients and scroll-through world landing pages.",
+      "skills": [
+        "./skills/react-three-fiber",
+        "./skills/liquid-glass-js",
+        "./skills/liquid-metal-logo",
+        "./skills/shadergradient",
+        "./skills/scroll-world"
+      ],
+      "category": "design"
+    }
+  ]
+}
